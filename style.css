@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pokemon-list{
+    width: 70%;
+    /* background-color: cyan; */
+    display: inline-block;
+}
+.pokemon-info{
+    width: contain;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 15px;
+    border: 10px solid red;
+    vertical-align: top;
+    padding: 15px;
+}
+.info-header{
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    font-size: 12pt;
+    margin: 10px 0;
+}
+ul li{
+    margin-left: 10%;
+}
