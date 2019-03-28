@@ -15,7 +15,6 @@ $(document).ready(function() {
 
         $.get("https://pokeapi.co/api/v2/pokemon/" + poke, function(x) {
             var htmlStr = "<div class='info-header'>";
-            htmlStr += ""
             htmlStr += "<h1>" + x.name + "</h1>"; //grab pokemon name
             htmlStr += "<img class='pokemon-info-img' src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/"+ poke + ".png'></img>"; //grab pokemon image
             htmlStr += "</div>";
